@@ -22,11 +22,11 @@ for linha in planilha.index:
 
     if dia_nascimento == dia_atual and mes_nascimento == mes_atual: # se o dia atual for igual ao dia de nascimento, executa tal ação
 
-        pyautogui.press('win')
+        pyautogui.press('win') # pressiona a tecla enter
         time.sleep(1)
-        keyboard.write("canva")
+        keyboard.write("canva") # pesquisa o app canva na barra de pesquisa
         time.sleep(0.5)
-        keyboard.press('enter')
+        keyboard.press('enter') # pressiona a tecla enter
         time.sleep(4)
         pyautogui.click(x=424, y=979) # clica no arquivo da imagem no canva
         time.sleep(4)
@@ -42,11 +42,11 @@ for linha in planilha.index:
         time.sleep(2)
         pyautogui.click(x=1544, y=716) # clica em baixar
         time.sleep(3)
-        pyautogui.click(x=1747, y=256)
+        pyautogui.click(x=1747, y=256) # clica nas opções de download
         time.sleep(1)
-        pyautogui.click(x=1879, y=322)
+        pyautogui.click(x=1879, y=322) # clica para subir a tela
         time.sleep(2)
-        pyautogui.click(x=1541, y=346)
+        pyautogui.click(x=1541, y=346) # seleciona a opção JPG para download
         time.sleep(1)
         pyautogui.click(x=1672, y=682) # clica novamente na opção baixar
         time.sleep(5)
